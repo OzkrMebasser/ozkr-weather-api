@@ -1,0 +1,190 @@
+
+
+
+#titulo{
+    color: white;
+    font-size: 1.1em;
+    display: inline;
+    margin-right: 15vh;
+    font-weight: 600;
+    text-shadow:  2px 2px 2px rgba(0, 0, 0, 0.267);
+    transition: 0.5s ease;
+  }
+  
+  #titulo:hover {
+    text-decoration: none;
+    color: rgb(255, 239, 9);
+    font-weight: 600;
+    
+  
+  }
+  
+  #titulo:active{
+    color: rgba(0, 0, 0, 0.568);
+  }
+  
+  @media only screen 
+  and (max-width : 991px){
+    #titulo{
+      color: rgb(255, 239, 9);
+      max-width: 6em;
+      min-width: 3em;
+      min-height: 0.5em;
+      font-size: 1em;
+      display: inline;
+      margin-right: 5vh;
+      font-weight: 600;
+      text-shadow:  2px 2px 2px rgba(0, 0, 0, 0.267);
+      transition: 0.5s ease;
+    }
+  }
+  @media only screen 
+  and (max-width : 991px){
+    #titulo:hover {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-weight: 400;
+      transform: scale(1.1);
+    
+    }
+  
+  }
+  
+  @media only screen 
+  and (max-width : 991px){
+      .a{
+    transition: 0.1s ease;
+    margin-left: 3vw;
+    color: white;
+    font-size: 1em;
+    padding-left: 1.5em;
+  
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  .flexButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
+  }
+  
+  .a{
+    transition: 0.1s ease;
+    margin-left: 5vw;
+    color: white;
+    font-size: 1em;
+    padding-left: 1.5em;
+  
+  }
+  
+  .a:hover{
+    color: rgb(255, 239, 9);
+    font-weight: 600;
+  }
+  
+  .a{
+    transition: 0.2s ease;
+  }
+  
+  .a:active{
+    color: rgba(0, 0, 0, 0.507);
+  }
+  
+  .boton_danger{
+    background-color: rgba(252, 0, 0, 0.445);
+    margin-right: 3px;
+    box-shadow: none;
+    border: solid 1px rgba(255, 255, 255, 0.575);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    transition: 1.5s ease;
+    outline: none;
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  
+  
+  .boton_danger:hover{
+    transform : scale(1.01); 
+    /* animation-name: example;
+    animation-duration: 0.5s; */
+   
+    color: rgb(255, 255, 255);
+  
+    background-color: rgb(252, 0, 0);
+  
+  }
+  
+  .boton{
+    background-color: rgba(61, 255, 87, 0.459);
+    margin-right: 3px;
+    box-shadow: none;
+    border: solid 1px rgba(255, 255, 255, 0.575);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    transition: 1.5s ease;
+    outline: none;
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  
+  #btnn{
+    outline: none;
+  }
+  
+  .boton:active{
+    background-color: black;
+  }
+  
+  .boton:hover{
+    transform : scale(1.01); 
+    /* animation-name: example;
+    animation-duration: 0.5s; */
+    transform: scale(.9.5);
+    color: black;
+    background-color: rgb(0, 255, 21);
+  
+  }
+  
+  
+  #input{
+    background-color: rgba(255, 255, 255, 0.144);
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-right: 3px;
+    color: white;
+    outline: none;
+    transition: 1.5s ease;
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  
+  @keyframes example {
+    from {background-color: rgba(255, 0, 0, 0);}
+    to {background-color: rgba(255, 255, 255, 0.322);}
+  } 
+  
+  #input:hover{
+    transform : scale(1.01); /* Chrome - Safari */
+    animation-name: example;
+    animation-duration: 1s;
+    background-color: rgba(255, 255, 255, 0.322);
+  }
+  
+  ::placeholder{
+    color: rgba(255, 255, 255, 0.486)
+  }
+  
+  .navv{
+    display: flex;
+    min-height: 2.8rem;
+    max-height: 20rem;
+    
+  }

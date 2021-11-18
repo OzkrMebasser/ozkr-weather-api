@@ -1,0 +1,49 @@
+
+
+.App {
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+  text-decoration: none !important;
+  text-decoration-color: red;
+}
+
+a{
+  text-decoration: none;
+}
+
+i:hover{
+  transform: scale(1.2);
+}
+
+#buttonStart:hover {
+  cursor: pointer;
+ 
+}
+
+
+
+.navv{
+  background-color: rgba(0, 38, 255, 0.356);
+  border: solid 3px rgba(255, 255, 255, 0.116);
+  box-shadow: rgba(0, 0, 0, 0.082) 1px 1px 1px 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+ 
+body{
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+
+

@@ -1,0 +1,180 @@
+
+
+.home{
+    justify-content: center;
+}
+
+.homehome{
+    border-bottom: rgba(0, 0, 0, 0) solid 1px;
+}
+
+#scrollToSee{
+  color: white;
+  padding-top: 5.5%;
+  animation-duration: 5s;
+  animation-name: fadeInOpacity;
+}
+
+
+#idChoto{
+  text-decoration: none;
+}
+
+#botonRaro{
+  text-decoration: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.055);
+}
+
+#tituloHome{
+    align-self: center;
+    padding-top: 5rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    animation-duration: 5s;
+    animation-name: fadeInOpacity;
+  }
+
+  @media only screen 
+and (max-width : 991px){
+  #tituloHome{
+  align-self: center;
+  padding-top: 3rem;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  animation-duration: 5s;
+  animation-name: fadeInOpacity;
+}
+  
+}
+
+#buttonStart{
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 1.5em;
+    outline: none;
+    text-align: center;
+    animation-name: fadeInOpacity;
+	  animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-name: fadeInOpacity;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.13);
+    border: solid 1px rgba(255, 255, 255, 0.74);
+}
+
+#buttonStart:hover{
+    /* background-color: rgba(0, 0, 0, 0.205); */
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 10, 41);
+    border: solid 1px rgba(5, 1, 54, 0.74);
+    transform: scale(.9);
+}
+
+
+
+#buttonStart:active{
+    background-color: rgba(0, 204, 255, 0.185);
+}
+
+.made{
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.781);
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0em);
+	}
+	50% {
+		transform: translatey(-0.6em);
+	}
+	100% {
+		transform: translatey(0em);
+	}
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0.9;
+	}
+}
+
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .rainbow {
+ 
+    /* Chrome, Safari, Opera */
+   -webkit-animation: rainbow 5s infinite; 
+   
+   /* Internet Explorer */
+   -ms-animation: rainbow 5s infinite;
+   
+   /* Standar Syntax */
+   animation: rainbow 5s infinite; 
+ }
+ 
+ /* Chrome, Safari, Opera */
+ @-webkit-keyframes rainbow{
+   0%{color: orange;}	
+   10%{color: purple;}	
+   20%{color: rgb(240, 71, 71);}
+   30%{color: CadetBlue;}
+   40%{color: yellow;}
+   50%{color: coral;}
+   60%{color: green;}
+   70%{color: cyan;}
+   80%{color: rgb(20, 55, 255);}
+   90%{color: DodgerBlue;}
+   100%{color: orange;}
+ }
+ 
+ /* Internet Explorer */
+ @-ms-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+  20%{color: rgb(240, 71, 71);}
+  30%{color: CadetBlue;}
+  40%{color: yellow;}
+  50%{color: coral;}
+  60%{color: green;}
+  70%{color: cyan;}
+  80%{color: rgb(20, 55, 255);}
+  90%{color: DodgerBlue;}
+  100%{color: orange;}
+}
+ 
+ /* Standar Syntax */
+ @keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+  20%{color: rgb(240, 71, 71);}
+  30%{color: CadetBlue;}
+  40%{color: yellow;}
+  50%{color: coral;}
+  60%{color: green;}
+  70%{color: cyan;}
+  80%{color: rgb(20, 55, 255);}
+  90%{color: DodgerBlue;}
+  100%{color: orange;}
+}
+
+.createdBy{
+    margin-top: 10em;
+    color: rgba(255, 255, 255, 0.159);
+}

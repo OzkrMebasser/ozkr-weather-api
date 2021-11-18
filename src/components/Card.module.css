@@ -1,0 +1,142 @@
+
+.card{
+    margin: 0.5em;
+    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.082) 0%, rgba(122, 233, 226, 0.438) 12%, rgba(255, 255, 255, 0.021) 100%);
+    border-radius: 1.1em;
+    border: solid 2px;
+    border-color: rgba(255, 255, 255, 0.404);
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 0.75rem;
+    font-size: 0.8em;
+}
+
+
+.card:hover{
+    animation: pop 4s infinite;
+    box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.329);
+}
+
+.card2:hover{
+    animation: pop2 5s infinite;
+    box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.329);
+}
+
+.card2{
+    margin: 0.5em;
+    background-color: #7f5a836b;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    border-radius: 1.1em;
+    border: solid 2px;
+    border-color: rgba(255, 255, 255, 0.404);
+    color: rgba(255, 255, 255, 0.87);
+    transition: 1.5s ease;
+    font-size: 0.75rem;
+    font-size: 0.8em;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+
+.cityName{
+    font-size: 1.4em;
+}
+
+.weather{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.grades{
+    color: rgb(137, 247, 255);
+    font-size: 1.3em;
+    text-shadow: rgba(101, 0, 110, 0.315) 2px 2px 2px;
+} 
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.minMax{
+    padding-top: 0.5em;
+    margin-right: 1em;
+}
+
+.logoDiv{
+    display: block;
+}
+
+.weatherLogo{
+    margin-right: 1.1em;
+    width: 7em;
+}
+
+
+.boton{
+    font-size: 1.3em;
+    border: solid 1.5px rgba(255, 255, 255, 0.445);
+    border-radius: 0.4em;
+    border-color: rgba(155, 134, 134, 0.466);
+    background-color: rgba(255, 0, 0, 0.788);
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.boton:hover{
+    background-color: rgba(129, 5, 5, 0.719) ;
+}
+
+
+.botonvermas{
+    font-size: 1.3em;
+    border: solid 1.5px rgba(255, 255, 255, 0.445);
+    border-radius: 0.4em;
+    border-color: rgba(155, 134, 134, 0.466);
+    background-color: rgb(255, 255, 255);
+    color: rgb(23, 7, 165);
+    outline: none;
+}
+
+.botonvermas:hover{
+    background-color: rgba(11, 126, 235, 0.884) ;
+}
+
+.cardBody{
+    color: white;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+@keyframes pop{
+    25% {
+            background-color: rgba(255, 102, 0, 0.644);
+
+    }
+    50% {
+            transform: scale(1.01);
+    }
+    to {
+            background-color: rgba(255, 255, 255, 0);
+    }
+  }
+
+@keyframes pop2{
+    25% {
+            background-color: rgba(26, 37, 197, 0.658);
+    }
+    50% {
+            transform: scale(1.01);
+    }
+    to {
+            background-color: rgba(255, 255, 255, 0);
+    }
+}

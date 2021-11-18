@@ -1,0 +1,31 @@
+
+
+.text{
+    color: white;
+    font-size: 1.1em;
+}
+
+.text2{
+    color: white;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.info{
+    margin-top: 3em;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.text3{
+    margin-top: 2em;
+    color: white;
+    font-size: 1em;
+    text-shadow: rgba(101, 0, 110, 0.315) 2px 2px 2px;
+
+
+}

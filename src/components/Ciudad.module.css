@@ -1,0 +1,77 @@
+
+
+
+.cityScreen{
+    border-radius: 2em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 1em;
+    padding-top: -5em;
+    color: white;
+}
+
+.Link{
+    text-decoration: none !important;
+    color: white;
+    border: solid 1px white;
+    border-radius: 0.5em;
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 3em;
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0.3em;
+}
+
+
+.likto{
+    text-decoration: none !important;
+    text-decoration-color: red;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    text-decoration:  none !important;
+}
+
+.Link:hover{
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+.stat{
+    padding-left: 1.5em;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.22);
+    margin: 0.2em;
+    border-radius: 1em;
+
+}
+
+.detail{
+    margin: 0;
+}
+
+.weatherLogo{
+    margin: 0;
+    position: relative;
+    width: 4em;
+    padding-left: 0.5em;
+}
+
+
+.time{
+    margin: 0;
+    font-size: 1.7em;
+}
+
+.title{
+    margin: 0;
+    font-size: 3em;
+}
