@@ -21,7 +21,7 @@ export default function Card ({min, max, name, img, onClose, id, temp, weather})
         
         <div className={style.cardBody}>
             <p className={style.cityName}>{name}</p>
-            <p className={style.grades}>- {temp}°C</p>
+            <p className={style.grades}> {temp}°C</p>
             <p>{weather}</p>      
           <div className={style.bottom}>   
             <div className={style.logoDiv}>
